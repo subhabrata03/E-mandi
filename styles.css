@@ -1,0 +1,270 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    background-image: url(pexels-adonyi-foto-1414651.jpg) ;
+    background-size: cover;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 28px;
+    height: max-content;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+    color: white;
+    border: 0.5px white;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://example.com/hero-image.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 10px 0 20px;
+}
+
+.hero button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #45a049;
+}
+
+/* Container and Cards */
+.container {
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 50px 20px;
+}
+
+#pricing h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#pricing-table th, #pricing-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#pricing-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Vegetable List Section */
+#vegetable-list {
+    padding: 50px 20px;
+}
+
+#vegetable-list h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#vegetable-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.vegetable-card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.vegetable-card:hover {
+    transform: scale(1.05);
+}
+
+.vegetable-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #4CAF50;
+}
+
+.vegetable-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Registration Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+form label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form select, form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Help & FAQs Section */
+#help {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+#help h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.faq h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.faq p {
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
